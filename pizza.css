@@ -1,0 +1,18 @@
+body{
+    margin: auto;
+    background-color: black;
+}
+
+header{
+    background-image: url(img/fejlec.jpg);
+    color: white;
+    height: 672px;
+    background-repeat: no-repeat;
+    background-position-x: -280px;
+    background-position-y: center;
+    background-size: 1900px;
+}
+h3{
+    padding: 30px;
+    font-size: 32px;
+}

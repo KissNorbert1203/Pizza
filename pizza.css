@@ -16,3 +16,12 @@ h3{
     padding: 30px;
     font-size: 32px;
 }
+nav{
+    float: right;
+    color: rgb(216, 213, 213);
+    margin-top: -100px;
+}
+a:link, a:active, a:visited{
+    color: rgb(216, 213, 213);
+    text-decoration: none;
+}

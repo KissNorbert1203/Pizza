@@ -65,7 +65,7 @@ a:hover{
     margin-left: 47%;
 }
 #menu{
-    color: rgb(180, 178, 178);
+    color: rgb(156, 154, 154);
     text-align: center;
 }
 #menusz{
@@ -109,4 +109,20 @@ a:hover{
 #specialitasok{
     text-align: center;
     background-color: rgb(36, 36, 36);
+    padding: 3%;
+}
+#izek{
+    color: rgb(156, 154, 154);
+}
+#pizzakep{
+    margin-left: 12%;
+    margin-top: 3%;
+    display: block;
+    height: 370px;
+}
+#vorosboros{
+    height: 500px;
+}
+#pizzamargin{
+
 }

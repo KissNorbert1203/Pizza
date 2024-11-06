@@ -121,8 +121,23 @@ a:hover{
     height: 370px;
 }
 #vorosboros{
-    height: 500px;
+    top: 0%;
+    left: 150px;
+    right: -50%;
+    height: 450px;
+    display: inline;
+    
 }
-#pizzamargin{
-
+#zoldseg{
+    height: 200px;
+    display: inline;
+}
+#masikpizza{
+    width: 300px;
+}
+#eloetel{
+    height: 250px;
+}
+#lablec{
+    
 }

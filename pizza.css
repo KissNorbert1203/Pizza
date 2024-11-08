@@ -139,5 +139,26 @@ a:hover{
     height: 250px;
 }
 #lablec{
-    
+    margin-top: 2%;
+}
+#szeretettel{
+    margin-right: 60%;
+    text-align: right;
+    line-height: 10px;
+}
+#tablazat{
+    color: aliceblue;
+}
+#nyitvatartas{
+    margin-top: -2%;
+    margin-left: 43%;
+    color: rgb(175, 166, 166);
+    line-height: 23px;
+}
+#nyitva{
+    color: white;
+    margin-left: 43%;
+}
+#hetfo{
+    border-bottom: 3px, solid, red;
 }

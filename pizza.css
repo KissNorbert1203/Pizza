@@ -158,7 +158,38 @@ a:hover{
 #nyitva{
     color: white;
     margin-left: 43%;
+    margin-top: -5%;
+    margin-bottom: 5%;
 }
 #hetfo{
     border-bottom: 3px, solid, red;
+}
+#elsoborder{
+    margin-bottom: 3px;
+    border-bottom: solid 1px;
+    margin-right: 65%;
+}
+#masodikborder{
+    border-bottom: solid 1px;
+    margin-right: 65%;
+}
+#harmadikborder{
+    border-bottom: solid 1px;
+    margin-right: 65%;
+}
+#negyedikborder{
+    border-bottom: solid 1px;
+    margin-right: 65%;
+}
+#otodikborder{
+    border-bottom: solid 1px;
+    margin-right: 65%;
+}
+#hatodikborder{
+    border-bottom: solid 1px ;
+    margin-right: 65%;
+}
+hr{
+    margin-left: 15%;
+    margin-right: 15%;
 }

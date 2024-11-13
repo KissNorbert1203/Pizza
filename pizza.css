@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
 }
 
 header{
@@ -189,7 +189,29 @@ a:hover{
     border-bottom: solid 1px ;
     margin-right: 65%;
 }
+#asztalfoglalas{
+    color: rgb(255, 255, 255);
+    margin-left: 67%;
+    margin-top: -32%;
+    margin-bottom: 21%;
+    margin-right: 10%;
+}
+#foglalasszoveg{
+    color: rgb(168, 168, 168);
+    font-size: 20px;
+    }
+#itt{
+    text-decoration: underline;
+}
 hr{
+    margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
+    border-color: rgb(80, 73, 73);
+}
+#alsoszoveg{
+    color: rgb(168, 168, 168);
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }

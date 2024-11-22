@@ -41,6 +41,7 @@ a:hover{
     background-color: rgb(36, 36, 36);
     margin-top: -10%;
     height: 100%;
+    padding: 1%;
 }
 #piadina{
     font-size: 26px;
@@ -64,7 +65,7 @@ a:hover{
 #asztal{
     margin: auto;
     margin-bottom: 4%;
-    margin-left: 47%;
+    margin-left: 48%;
 }
 #menu{
     color: rgb(156, 154, 154);
@@ -116,6 +117,7 @@ a:hover{
 }
 #izek{
     color: rgb(156, 154, 154);
+    font-size: 20px;
 }
 #pizzakep{
     margin-left: 12%;
@@ -143,6 +145,7 @@ a:hover{
 }
 #lablec{
     margin-top: 2%;
+    padding: 1%;
 }
 #szeretettel{
     margin-right: 60%;
@@ -216,16 +219,6 @@ hr{
     margin-top: 4%;
     margin-bottom: 4%;
 }
-img{
-    transition: transform 0.4s;
-    
-}
-.picture-wrapper{
-    overflow: hidden;
-}
-img:hover{
-    transform: scale(1.2);
-}
 .text{
     position: absolute;
     bottom: 10px;
@@ -236,7 +229,7 @@ img:hover{
 }
 .gallery{
     display: grid;
-    height: 700px;
+    height: 850px;
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(10, 1fr);
     grid-gap: 1.5rem; 
@@ -248,38 +241,76 @@ img:hover{
 }
 .gallery__item--1{
     grid-column-start: 2;
-    grid-column-end: 10;
+    grid-column-end: 11;
     grid-row-start: 1;
-    grid-row-end: 7;
+    grid-row-end: 6;
 }
 .gallery__item--2 {
     grid-column-start: 10;
-    grid-column-end: 14;
+    grid-column-end: 15;
     grid-row-start: 1;
     grid-row-end: 8;
 }
 .gallery__item--3 {
     grid-column-start: 2;
     grid-column-end: 7;
-    grid-row-start: 13;
-    grid-row-end: 6;
-}
-/*
-  .gallery__item--4 {
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 6;
-}
-.gallery__item--5 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 9;
-}  
-.gallery__item--6 {
-    grid-column-start: 7;
-    grid-column-end: 9;
     grid-row-start: 6;
     grid-row-end: 10;
-}*/
+}
+.gallery__item--4 {
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+.gallery__item--5 {
+    grid-column-start: 10;
+    grid-column-end: 15;
+    grid-row-start: 8;
+    grid-row-end: 11;
+} 
+#pizzatext{
+    margin-top: -5%;
+    color: white;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+#vorosborostext{
+    margin-top: -11%;
+    color: white;
+    text-align: center;
+    grid-column-start: 11;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+#vegyestext{
+    margin-top: -10%;
+    color: white;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+#pizzamasodiktext{
+    margin-top: -10%;
+    color: white;
+    text-align: center;
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+#eloeteltext{
+    margin-top: -10%;
+    color: white;
+    text-align: center;
+    grid-column-start: 10;
+    grid-column-end: 15;
+    grid-row-start: 8;
+    grid-row-end: 11;
+}

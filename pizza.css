@@ -156,7 +156,6 @@ a:hover{
     color: aliceblue;
 }
 #nyitvatartas{
-    margin-top: -2%;
     margin-left: 43%;
     color: rgb(175, 166, 166);
     line-height: 135%;
@@ -166,7 +165,7 @@ a:hover{
     color: white;
     margin-left: 43%;
     margin-top: -5%;
-    margin-bottom: 5%;
+    margin-right: 37%;
 }
 #hetfo{
     border-bottom: 3px, solid, red;
@@ -314,3 +313,6 @@ hr{
     grid-row-start: 8;
     grid-row-end: 11;
 }
+@media only screen and (max-width: 900px) {
+
+  }

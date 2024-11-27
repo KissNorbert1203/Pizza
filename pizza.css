@@ -41,31 +41,36 @@ a:hover{
     background-color: rgb(36, 36, 36);
     margin-top: -10%;
     height: 100%;
-    padding: 1%;
+    padding: 3px;
 }
 #piadina{
     font-size: 26px;
-    margin-left: 24%;
-    margin-top: 1%;
+    margin-left: 160px;
+}
+.bal{
+    
+}
+.jobb{
+
 }
 #tortenet{
     font-size: 18px;
     color: rgb(133, 131, 131);
-    margin-left: 37%;
+    margin-left: 330px;
     margin-top: -4%;
 }
 #tortenetsz{
     color: rgb(180, 178, 178);
     text-align: left;
-    margin-left: 48%;
-    margin-top: -7%;
-    margin-right: 17%;
-    font-size: 18px;
+    margin-left: 470px;
+    margin-top: -95px;
+    margin-right: 200px;
+    font-size: 20px;
 }
 #asztal{
     margin: auto;
     margin-bottom: 4%;
-    margin-left: 48%;
+    margin-left: 470px;
 }
 #menu{
     color: rgb(156, 154, 154);
@@ -158,14 +163,17 @@ a:hover{
 #nyitvatartas{
     margin-left: 43%;
     color: rgb(175, 166, 166);
-    line-height: 135%;
-    font-size: 20px;
+    line-height: 137%;
+    font-size: 21px;
+    margin-right: 40%;
+    position: relative;
 }
 #nyitva{
     color: white;
-    margin-left: 43%;
+    text-align: center;
     margin-top: -5%;
-    margin-right: 37%;
+    margin-bottom: 4%;
+    margin-left: -10%;
 }
 #hetfo{
     border-bottom: 3px, solid, red;
@@ -173,34 +181,28 @@ a:hover{
 #elsoborder{
     margin-bottom: 3px;
     border-bottom: solid 1px;
-    margin-right: 65%;
 }
 #masodikborder{
     border-bottom: solid 1px;
-    margin-right: 65%;
 }
 #harmadikborder{
     border-bottom: solid 1px;
-    margin-right: 65%;
 }
 #negyedikborder{
     border-bottom: solid 1px;
-    margin-right: 65%;
 }
 #otodikborder{
     border-bottom: solid 1px;
-    margin-right: 65%;
 }
 #hatodikborder{
     border-bottom: solid 1px ;
-    margin-right: 65%;
 }
 #asztalfoglalas{
     color: rgb(255, 255, 255);
-    margin-left: 67%;
-    margin-top: -37%;
-    margin-bottom: 25%;
-    margin-right: 10%;
+    margin-left: 70%;
+    margin-right: 8%;
+    margin-top: -500px;
+    margin-bottom: 400px;
 }
 #foglalasszoveg{
     color: rgb(168, 168, 168);

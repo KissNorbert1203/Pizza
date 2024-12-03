@@ -54,7 +54,7 @@ a:hover{
     font-size: 18px;
     color: rgb(133, 131, 131);
     margin-left: 330px;
-    margin-top: -4%;
+    margin-top: -55px;
 }
 #tortenetsz{
     color: rgb(180, 178, 178);
@@ -197,7 +197,7 @@ a:hover{
 #asztalfoglalas{
     color: rgb(255, 255, 255);
     margin-left: 65%;
-    margin-right: 8%;
+    margin-right: 10%;
     margin-top: -575px;
     margin-bottom: 420px;
     line-height: 28px;
@@ -314,22 +314,27 @@ hr{
     grid-row-end: 11;
 }
 @media only screen and (max-width: 900px) {
-    .topnav {
-        overflow: hidden;
-        background-color: #333;
+    #piadina{
+        font-size: 26px;
     }
-    .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
+    #tortenet{
+        font-size: 18px;
+        color: rgb(133, 131, 131);
+        margin-left: 330px;
+        margin-top: -55px;
     }
-    .topnav a.icon {
-        background: black;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
+    #tortenetsz{
+        color: rgb(180, 178, 178);
+        text-align: left;
+        margin-left: 470px;
+        margin-top: -95px;
+        margin-right: 10%;
+        font-size: 20px;
+        line-height: 33px;
+    }
+    #asztal{
+        margin: auto;
+        margin-bottom: 4%;
+        margin-left: 470px;
     }
   }

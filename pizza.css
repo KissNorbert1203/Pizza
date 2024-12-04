@@ -74,6 +74,7 @@ a:hover{
     color: rgb(156, 154, 154);
     text-align: center;
     font-size: 20px;
+    line-height: 27px;
 }
 #menusz{
     margin-left: 25%;
@@ -208,8 +209,8 @@ a:hover{
     }
 hr{
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-color: rgb(80, 73, 73);
 }
 #alsoszoveg{
@@ -228,7 +229,6 @@ hr{
 }
 .gallery{
     display: grid;
-    height: 850px;
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(10, 1fr);
     grid-gap: 1.5rem; 
@@ -315,26 +315,54 @@ hr{
 }
 @media only screen and (max-width: 900px) {
     #piadina{
-        font-size: 26px;
+        margin-left: 8px;
     }
     #tortenet{
-        font-size: 18px;
-        color: rgb(133, 131, 131);
-        margin-left: 330px;
-        margin-top: -55px;
+        margin-left: 184px;
     }
     #tortenetsz{
-        color: rgb(180, 178, 178);
-        text-align: left;
-        margin-left: 470px;
-        margin-top: -95px;
-        margin-right: 10%;
-        font-size: 20px;
-        line-height: 33px;
+        margin-left: 310px;
+        margin-right: 3%;
     }
     #asztal{
-        margin: auto;
-        margin-bottom: 4%;
-        margin-left: 470px;
+        margin-left: 310px;
     }
-  }
+    #menusz{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .gallery{
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+    .gallery__item--1{
+        grid-column-start: 1;
+        grid-column-end: 10;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .gallery__item--2 {
+        grid-column-start: 9;
+        grid-column-end: 17;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    .gallery__item--3 {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 5;
+        grid-row-end: 8;
+    }
+    .gallery__item--4 {
+        grid-column-start: 5;
+        grid-column-end: 10;
+        grid-row-start: 5;
+        grid-row-end: 8;
+    }
+    .gallery__item--5 {
+        grid-column-start: 9;
+        grid-column-end: 17;
+        grid-row-start: 6;
+        grid-row-end: 8;
+    } 
+}

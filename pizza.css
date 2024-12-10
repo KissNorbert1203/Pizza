@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    margin-top: -4%;
+    margin-top: -1.5cm;
     background-image: url(img/fejlec.jpg);
     color: white;
     height: 672px;
@@ -164,7 +164,6 @@ a:hover{
     line-height: 35px;
     font-size: 21px;
     margin-right: 40%;
-    position: relative;
 }
 #nyitva{
     color: white;
@@ -402,49 +401,91 @@ hr{
         margin-right: 5%;
     }
     .gallery{
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(8, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
     }
     .gallery__item--1{
         grid-column-start: 1;
-        grid-column-end: 10;
+        grid-column-end: 4;
         grid-row-start: 1;
-        grid-row-end: 5;
+        grid-row-end: 2;
     }
     .gallery__item--2 {
-        grid-column-start: 9;
-        grid-column-end: 17;
-        grid-row-start: 1;
-        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
     }
     .gallery__item--3 {
         grid-column-start: 1;
-        grid-column-end: 6;
-        grid-row-start: 5;
-        grid-row-end: 8;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
     }
     .gallery__item--4 {
-        grid-column-start: 5;
-        grid-column-end: 10;
+        grid-column-start: 1;
+        grid-column-end: 4;
         grid-row-start: 5;
-        grid-row-end: 8;
+        grid-row-end: 6;
     }
     .gallery__item--5 {
-        grid-column-start: 9;
-        grid-column-end: 17;
+        grid-column-start: 1;
+        grid-column-end: 4;
         grid-row-start: 6;
-        grid-row-end: 8;
+        grid-row-end: 7;
     }
     #vorosborostext{
-        margin-top: -16%;
+        margin-top: -8%;
     }
     #vegyestext{
-        margin-top: -23%;
+        margin-top: -8%;
     }
     #pizzamasodiktext{
-        margin-top: -15%;
+        margin-top: -8%;
     }
     #eloeteltext{
-        margin-top: -15%;
+        margin-top: -8%;
+    }
+    #elem1{
+        display: block;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 50px;
+    }
+    #elem2{
+        display: block;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 50px;
+    }
+    #elem3{
+        display: block;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 50px;
+    }
+    #asztalfoglalas{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #nyitvatartas{
+        margin-left: 34%;
+        line-height: 35px;
+        font-size: 21px;
+        margin-right: 40%;
+    }
+    #nyitva{
+        color: white;
+        text-align: center;
+        margin-top: -65px;
+        margin-bottom: 40px;
+        margin-left: -27%;
+    }
+    hr{
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }

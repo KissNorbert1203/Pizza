@@ -474,15 +474,82 @@ hr{
     #nyitvatartas{
         margin-left: 34%;
         line-height: 35px;
-        font-size: 21px;
         margin-right: 40%;
     }
     #nyitva{
-        color: white;
-        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    #szeretettel{
+        margin-right: 0;
+        text-align: right;
+        
+        line-height: 0;
+    }
+    #nyitvatartas{
+        margin-left: 1%;
+        line-height: 30px;
+        font-size: 21px;
+        margin-right: 2%;
+    }
+    #nyitva{
+        text-align: left;
         margin-top: -65px;
         margin-bottom: 40px;
         margin-left: -27%;
+    }
+    #hetfo{
+        text-align: left;
+    }
+    #elsoborder{
+        text-align: right;
+        margin-left: 450px;
+    }
+    #masodikborder{
+        text-align: right;
+        margin-left: 385px;
+    }
+    #harmadikborder{
+        text-align: right;
+        margin-left: 370px;
+    }
+    #negyedikborder{
+        text-align: right;
+        margin-left: 370px;
+    }
+    #otodikborder{
+        text-align: right;
+        margin-left: 370px;
+    }
+    #hatodikborder{
+        text-align: right;
+        margin-left: 380px;
+    }
+    #hetedikborder{
+        text-align: right;
+        margin-left: 380px;
+    }
+    #elsoflex{
+        display: flex;
+    }
+    #masodikflex{
+        display: flex;
+    }
+    #harmadikflex{
+        display: flex;
+    }
+    #negyedikflex{
+        display: flex;
+    }
+    #otodikflex{
+        display: flex;
+    }
+    #hatodikflex{
+        display: flex;
+    }
+    #hetedikflex{
+        display: flex;
     }
     hr{
         margin-left: 2%;

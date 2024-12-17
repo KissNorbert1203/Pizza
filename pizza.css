@@ -312,6 +312,11 @@ hr{
     grid-row-start: 8;
     grid-row-end: 11;
 }
+@media only screen and (min-width: 900px) and (max-width: 930px){
+    #vegyestext{
+        margin-top: -40px;
+    }
+}
 @media only screen and (max-width: 900px) {
     #piadina{
         margin-left: 8px;
@@ -368,13 +373,28 @@ hr{
         margin-top: -16%;
     }
     #vegyestext{
-        margin-top: -23%;
+        margin-top: -15%;
     }
     #pizzamasodiktext{
         margin-top: -15%;
     }
     #eloeteltext{
         margin-top: -15%;
+    }
+}
+@media only screen and (max-width: 844px){
+    #vegyestext{
+        margin-top: -40px;
+    }
+}
+@media only screen and (max-width: 702px){
+    #vegyestext{
+        margin-top: -60px;
+    }
+}
+@media only screen and (max-width: 684px){
+    #vorosborostext{
+        margin-top: -40px;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -448,20 +468,20 @@ hr{
     }
     #elem1{
         display: block;
-        margin-left: 30%;
-        margin-right: 30%;
+        margin-left: 24%;
+        margin-right: 24%;
         margin-bottom: 50px;
     }
     #elem2{
         display: block;
-        margin-left: 30%;
-        margin-right: 30%;
+        margin-left: 24%;
+        margin-right: 24%;
         margin-bottom: 50px;
     }
     #elem3{
         display: block;
-        margin-left: 30%;
-        margin-right: 30%;
+        margin-left: 24%;
+        margin-right: 24%;
         margin-bottom: 50px;
     }
     #asztalfoglalas{
@@ -577,4 +597,7 @@ hr{
     #egysorba2{
         margin-bottom: 20px;
     }
+}
+@media only screen and (max-width: 414px){
+    
 }

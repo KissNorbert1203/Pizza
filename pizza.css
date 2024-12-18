@@ -215,6 +215,7 @@ hr{
 #alsoszoveg{
     color: rgb(168, 168, 168);
     text-align: center;
+    line-height: 30px;
     margin-top: 4%;
     margin-bottom: 4%;
 }
@@ -504,7 +505,7 @@ hr{
     #szeretettel{
         margin-right: 0;
         text-align: right;
-        
+        display: inline;
         line-height: 0;
     }
     #nyitvatartas{
@@ -521,74 +522,73 @@ hr{
         margin-left: -27%;
     }
     #hetfo{
-        text-align: left;
     }
     #elsoborder{
-        padding-left: 91%;
         padding-bottom: 5px;
-        text-align: right;
-        margin-left: -53px;
         margin-bottom: 6px;
+        border-bottom: 0px;
     }
     #masodikborder{
-        padding-left: 79%;
         padding-bottom: 5px;
-        text-align: right;
-        margin-left: -51px;
         margin-bottom: 6px;
+        border-bottom: 0px;
     }
     #harmadikborder{
-        padding-left: 79%;
         padding-bottom: 5px;
-        text-align: right;
-        margin-left: -63px;
         margin-bottom: 6px;
+        border-bottom: 0px;
     }
     #negyedikborder{
-        padding-left: 79%;
         padding-bottom: 5px;
-        text-align: right;
-        margin-left: -88px;
         margin-bottom: 6px;
+        border-bottom: 0px;
     }
     #otodikborder{
-        padding-left: 79%;
         padding-bottom: 5px;
-        text-align: right;
-        margin-left: -63px;
         margin-bottom: 6px;
+        border-bottom: 0px;
     }
     #hatodikborder{
-        padding-left: 79%;
         padding-bottom: 5px;
-        text-align: right;
-        margin-left: -37px;
         margin-bottom: 6px;
+        border-bottom: 0px;
     }
     #hetedikborder{
-        text-align: right;
-        margin-left: 72%;
+        margin-bottom: 6px;
     }
     #elsoflex{
         display: flex;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
     }
     #masodikflex{
         display: flex;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
     }
     #harmadikflex{
         display: flex;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
     }
     #negyedikflex{
         display: flex;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
     }
     #otodikflex{
         display: flex;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
     }
     #hatodikflex{
         display: flex;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
     }
     #hetedikflex{
         display: flex;
+        justify-content: space-between;
     }
     hr{
         margin-left: 2%;
@@ -598,6 +598,39 @@ hr{
         margin-bottom: 20px;
     }
 }
-@media only screen and (max-width: 414px){
-    
+@media only screen and (max-width: 406px){
+    #elsoflex{
+        display: block;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
+    }
+    #masodikflex{
+        display: block;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
+    }
+    #harmadikflex{
+        display: block;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
+    }
+    #negyedikflex{
+        display: block;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
+    }
+    #otodikflex{
+        display: block;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
+    }
+    #hatodikflex{
+        display: block;
+        border-bottom: 1px solid rgb(133, 131, 131);
+        justify-content: space-between;
+    }
+    #hetedikflex{
+        display: block;
+        justify-content: space-between;
+    }
 }

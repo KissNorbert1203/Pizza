@@ -6,11 +6,10 @@ body{
 header{
     margin-top: -1.5cm;
     background-image: url(img/fejlec.jpg);
+    background-position: center;
     color: white;
     height: 672px;
     background-repeat: no-repeat;
-    background-position-x: -280px;
-    background-position-y: center;
     background-size: 1900px;
 }
 h4{
@@ -52,7 +51,7 @@ nav{
 }
 .menu__btn {
     visibility: hidden;
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 20px; /* A bal helyett jobbra pozicionáljuk */
     width: 26px;
@@ -67,7 +66,7 @@ nav{
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #616161;
+    background-color: #ffffff;
     transition-duration: .25s;
 }
 .menu__btn > span::before {
@@ -244,7 +243,7 @@ a:hover{
     text-align: center;
     margin-top: -65px;
     margin-bottom: 40px;
-    margin-left: -27%;
+    margin-right: 26%;
 }
 #hetfo{
     border-bottom: 3px, solid, red;
@@ -393,6 +392,9 @@ hr{
     }
 }
 @media only screen and (max-width: 900px) {
+    #nyitva{
+        margin-right: 25%;
+    }
     .menu__btn {
         visibility: visible;
     }
@@ -467,15 +469,24 @@ hr{
     #vegyestext{
         margin-top: -40px;
     }
+    #nyitva{
+        margin-right: 25%;
+    }
 }
 @media only screen and (max-width: 702px){
     #vegyestext{
         margin-top: -60px;
     }
+    #nyitva{
+        margin-right: 24%;
+    }
 }
 @media only screen and (max-width: 684px){
     #vorosborostext{
         margin-top: -40px;
+    }
+    #nyitva{
+        margin-right: 23%;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -578,15 +589,16 @@ hr{
         margin-right: 40%;
     }
     #nyitva{
+        margin-right: 87%;
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 20px;
         margin-left: 0;
     }
     #szeretettel{
         margin-right: 0;
         text-align: right;
         display: inline;
-        line-height: 0;
+        line-height: 10px;
     }
     #nyitvatartas{
         margin-left: 1%;
@@ -594,14 +606,6 @@ hr{
         font-size: 21px;
         margin-right: 2%;
         
-    }
-    #nyitva{
-        text-align: left;
-        margin-top: -65px;
-        margin-bottom: 40px;
-        margin-left: -27%;
-    }
-    #hetfo{
     }
     #elsoborder{
         padding-bottom: 5px;
@@ -674,11 +678,25 @@ hr{
         margin-left: 2%;
         margin-right: 2%;
     }
+    #egysorba1{
+    }
     #egysorba2{
         margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 406px){
+    #vorosborostext{
+        margin-top: -10%;
+    }
+    #vegyestext{
+        margin-top: -10%;
+    }
+    #pizzamasodiktext{
+        margin-top: -10%;
+    }
+    #eloeteltext{
+        margin-top: -10%;
+    }
     #elsoflex{
         display: block;
         border-bottom: 1px solid rgb(133, 131, 131);

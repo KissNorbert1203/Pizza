@@ -49,6 +49,10 @@ nav{
 #menu__toggle:checked ~ .menu__box {
     right: 0 !important; /* A bal helyett jobbra pozicionáljuk */
 }
+figure{
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
 .menu__btn {
     visibility: hidden;
     position: absolute;
@@ -105,6 +109,7 @@ nav{
 .menu__item:hover {
     background-color: #CFD8DC;
 }
+
 a:link, a:active, a:visited{
     color: rgb(216, 213, 213);
     text-decoration: none;
@@ -304,7 +309,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    grid-gap: 1.5rem; 
+    grid-gap: 1.5rem;
 }
 .gallery__img{
     width: 100%;
@@ -395,6 +400,9 @@ hr{
     #nyitva{
         margin-right: 25%;
     }
+    a:link, a:active, a:visited{
+        color: rgb(0, 0, 0);
+    }
     .menu__btn {
         visibility: visible;
     }
@@ -421,6 +429,7 @@ hr{
     .gallery{
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(8, 1fr);
+        grid-gap: 0.5rem;
     }
     .gallery__item--1{
         grid-column-start: 1;
@@ -515,6 +524,12 @@ hr{
     .gallery{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
+        /*margin-left: -3.2%;
+        margin-right: -3.2%;*/
+    }
+    #specialitasok{
+        padding-left: 0;
+        padding-right: 0;
     }
     .gallery__item--1{
         grid-column-start: 1;
@@ -525,26 +540,26 @@ hr{
     .gallery__item--2 {
         grid-column-start: 1;
         grid-column-end: 4;
-        grid-row-start: 2;
-        grid-row-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 7;
     }
     .gallery__item--3 {
         grid-column-start: 1;
         grid-column-end: 4;
-        grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
     }
     .gallery__item--4 {
         grid-column-start: 1;
         grid-column-end: 4;
-        grid-row-start: 5;
-        grid-row-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
     }
     .gallery__item--5 {
         grid-column-start: 1;
         grid-column-end: 4;
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 8;
     }
     #vorosborostext{
         margin-top: -8%;
